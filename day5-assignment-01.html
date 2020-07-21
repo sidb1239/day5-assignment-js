@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment day5</title>
+</head>
+<body>
+    <h2>question 1</h2>
+    <script>
+        let numbertaken = parseInt(prompt("enter a positive number:"));
+        console.log(numbertaken);
+        let numarr = [];
+        for(i = 0; i <= numbertaken; i++){
+            numarr.push(i);
+        }
+        console.log(numarr);
+        let oddarr = numarr.filter(el=>el%2!==0);
+        console.log(oddarr);
+        let cube = oddarr.map(el=>el**3);
+        console.log(cube);
+        
+        
+            
+        
+        
+        
+    </script>
+</body>
+</html>
